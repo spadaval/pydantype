@@ -1,6 +1,5 @@
 from __future__ import annotations
-from typing import get_args, get_origin, Any, Union, List, Dict, Optional, Type, ForwardRef
-from typing_extensions import TypedDict
+from typing import get_args, get_origin, Any, Union, List, Dict, Optional, Type, ForwardRef, TypedDict
 from pydantic import BaseModel
 
 from .utils import is_pydantic_model, is_optional
