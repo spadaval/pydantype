@@ -5,11 +5,10 @@ description = "A library to convert Pydantic models to TypedDict"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "protobuf>=6.30.2",
     "pydantic>=2.11.3",
     "python-dotenv>=1.1.0",
     "typing-extensions>=4.13.2",
-    "protobuf>=5.27.3",
+    "protobuf>=5.26.1",
 ]
 authors = [
     {name = "Unclecode", email = "unclecode@kidocode.com"},
